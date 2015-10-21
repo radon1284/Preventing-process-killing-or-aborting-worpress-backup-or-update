@@ -1,4 +1,4 @@
-# Preventing-process-killing-or-aborting-worpress-backup-or-update
+# Preventing process killing or aborting worpress running LiteSpeed
 
 LiteSpeed web server has been known to kill or stop processes that take more than a few microseconds to run. It does not stop these processes gracefully but simply kills them silently. 
 When using software like Wordfence or backup software that needs a little more time to complete certain tasks, this can lead to problems. 
